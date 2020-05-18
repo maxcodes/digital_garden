@@ -3,14 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({
-  description,
-  lang,
-  meta,
-  title: propTitle,
-  image: propImage,
-  isRoot
-}) {
+function SEO({ frontmatter, isRoot }) {
   const {
     site: { siteMetadata }
   } = useStaticQuery(
@@ -29,16 +22,23 @@ function SEO({
     `
   );
 
-  const metaDescription = description || siteMetadata.description;
-  const title = isRoot ? siteMetadata.title : propTitle;
-  const image = propImage || siteMetadata.image;
+  let metaDescription, metaTitle, metaImage;
+  if (isRoot) {
+    metaDescription = siteMetadata.description;
+    metaTitle = siteMetadata.title;
+    metaImage = siteMetadata.image;
+  } else {
+    metaDescription = frontmatter.metaDescription;
+    metaTitle = frontmatter.title;
+    metaImage = frontmatter.thumbnail;
+  }
 
   return (
     <Helmet
       htmlAttributes={{
-        lang
+        lang: "en"
       }}
-      title={title}
+      title={metaTitle}
       titleTemplate={isRoot ? "%s" : `%s | ${siteMetadata.title}`}
       meta={[
         {
@@ -47,7 +47,7 @@ function SEO({
         },
         {
           property: `og:title`,
-          content: title
+          content: metaTitle
         },
         {
           property: `og:description`,
@@ -59,7 +59,7 @@ function SEO({
         },
         {
           property: `og:image`,
-          content: `${siteMetadata.siteUrl}${image}`
+          content: `${siteMetadata.siteUrl}${metaImage}`
         },
         {
           name: `twitter:card`,
@@ -71,7 +71,7 @@ function SEO({
         },
         {
           name: `twitter:title`,
-          content: title
+          content: metaTitle
         },
         {
           name: `twitter:description`,
@@ -79,24 +79,16 @@ function SEO({
         },
         {
           name: `twitter:image`,
-          content: `${siteMetadata.siteUrl}${image}`
+          content: `${siteMetadata.siteUrl}${metaImage}`
         }
-      ].concat(meta)}
+      ]}
     />
   );
 }
 
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``
-};
-
 SEO.propTypes = {
   description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   image: PropTypes.string
 };
 

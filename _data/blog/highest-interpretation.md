@@ -2,8 +2,6 @@
 template: BlogPost
 path: /highest-interpretation
 title: Highest Interpretation
-thumbnail: ""
-metaDescription: ""
 ---
 
 - from Deepak Chopra
