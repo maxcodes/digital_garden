@@ -16,9 +16,10 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: "gatsby-plugin-mdx",
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -39,7 +40,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Max's Digital Garden`,
-        short_name: `M'DG`,
+        short_name: `Max's Digital Garden`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
@@ -49,7 +50,6 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
     "gatsby-plugin-dark-mode",
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,

@@ -8,7 +8,7 @@ import HeroHeader from "../components/heroHeader";
 const IndexPage = ({
   data: {
     site,
-    allMarkdownRemark: { edges }
+    allMdx: { edges }
   }
 }) => {
   const Posts = edges.map(edge => (
@@ -34,7 +34,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }) {
+    allMdx(sort: { order: DESC, fields: [frontmatter___title] }) {
       edges {
         node {
           id
