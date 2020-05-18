@@ -1,7 +1,6 @@
 backend:
   name: github
-  # change repo to your git repository url
-  repo: W3Layouts/gatsby-starter-delog
+  repo: maxcodes/digital_garden
 
 media_folder: static/assets
 public_folder: /assets
@@ -58,7 +57,6 @@ collections:
         widget: string
         pattern: [/]
         hint: "Path must start with /"
-      - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - label: Meta Description
         name: metaDescription
