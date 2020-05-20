@@ -402,3 +402,7 @@ body.light {
   top: 8px;
   left: 2px;
 }
+.highlight {
+  background-color: var(--featured-bg);
+  color: var(--featured-text);
+}
