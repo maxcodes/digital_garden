@@ -34,7 +34,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMdx(sort: { order: DESC, fields: [frontmatter___title] }) {
+    allMdx {
       edges {
         node {
           id
