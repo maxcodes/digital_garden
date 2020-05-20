@@ -19,6 +19,20 @@ export default function Template({
           <MDXRenderer className="blog-post-content">{body}</MDXRenderer>
         </article>
       </div>
+      <hr />
+      <div className="primary-content" style={{ paddingTop: 50 }}>
+        Have thoughts about this? Share them with me:
+        <ul style={{ paddingTop: 5 }}>
+          <li>
+            <a href="mailto:digitalgarden@maxholzheu.com">via Email</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/messages/compose?recipient_id=158602524">
+              on Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
     </Layout>
   );
 }

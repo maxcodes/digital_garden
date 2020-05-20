@@ -12,5 +12,22 @@ export default () => (
       building and extending the work of others is as human and engaging as the
       conversational Stream.
     </div>
+    <div className="primary-content">
+      A secondary goal is that I’d also like to extend an invitiation for others
+      to spark conversations with me about anything they find interesting. I'd
+      be delighted for a friendship to grow out of any of these sprouts!
+      <ul style={{ paddingTop: 15 }}>
+        <li>
+          <a href="mailto:digitalgarden@maxholzheu.com">Click here</a> to send
+          me an email.
+        </li>
+        <li>
+          <a href="https://twitter.com/messages/compose?recipient_id=158602524">
+            Click here
+          </a>{" "}
+          to send me a Twitter DM.
+        </li>
+      </ul>
+    </div>
   </div>
 );
