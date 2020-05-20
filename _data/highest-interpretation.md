@@ -1,8 +1,6 @@
 ---
 template: BlogPost
-path: /highest-interpretation
 title: Highest Interpretation
-thumbnail: /assets/image-1.jpg
 ---
 
 - from Deepak Chopra

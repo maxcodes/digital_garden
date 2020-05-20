@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /avatar
 title: Avatar
 thumbnail: ""
+metaDescription: ""
 ---
 
 - Symbolism

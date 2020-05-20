@@ -30,10 +30,9 @@ export const pageQuery = graphql`
         title
       }
     }
-    mdx(frontmatter: { path: { eq: $path } }) {
+    mdx(fields: { slug: { eq: $path } }) {
       body
       frontmatter {
-        path
         title
         thumbnail
         metaDescription
