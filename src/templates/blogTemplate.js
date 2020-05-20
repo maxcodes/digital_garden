@@ -20,8 +20,8 @@ export default function Template({
         </article>
       </div>
       <hr />
-      <div className="primary-content" style={{ paddingTop: 50 }}>
-        Have thoughts about this? Share them with me:
+      <div style={{ paddingTop: 50 }}>
+        Have thoughts about this (positive or negative)? Share them with me:
         <ul style={{ paddingTop: 5 }}>
           <li>
             <a href="mailto:digitalgarden@maxholzheu.com">via Email</a>
