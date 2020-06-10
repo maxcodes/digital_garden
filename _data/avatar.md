@@ -5,7 +5,7 @@ thumbnail: ""
 metaDescription: ""
 ---
 
-- This is an in-progress outline of a post I want to write on the series Avatar:
+- This is an in-progress outline of a post I ~~want~~ *wanted* to write _and then it got too big, too ambitious and I lost motivation._ on the series Avatar:
   The Last Airbender.
 - Setup -- 
     - "100% on Rotten Tomatoes"
