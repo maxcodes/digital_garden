@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-title: There is no time
+title: There is No Time
 thumbnail: ""
 metaDescription: ""
 ---
