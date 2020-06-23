@@ -10,16 +10,16 @@ body {
   margin-top: 0;
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #EEF76F;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
-  --background: #fff;
+  --background: #6BA368;
   --site-header: var(--background);
-  --card-bg: #fff;
-  --card-bdr: #eee;
-  --card-shadow: #d5d5d5;
+  --card-bg: #74B370;
+  --card-bdr: var(--card-bg);
+  --card-shadow: darken(var(--card-bg), 10%);
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
@@ -28,6 +28,7 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --text-color: #fff;
 }
 body.dark {
   --primary-color: #9984d5;
@@ -259,7 +260,7 @@ a {
 .site-footer {
   text-align: center;
   margin: 90px 0 16px;
-  color: #666;
+  color: var(--text-color);
   a {
     font-weight: 700;
   }
