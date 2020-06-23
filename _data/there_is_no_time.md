@@ -10,4 +10,4 @@ metaDescription: ""
 - Prioritizing is crucial. Saying no to everything that is not a [hell
   yeah!](https://sivers.org/hellyeah) is even more important.
 - This is especially important when feeling scattered or overcommitted.
-- Cut back. Essentialism. what is Essential? [Who are you, and what do you want?](https://digitalgarden.maxholzheu.com/avatar)
+- Cut back. Essentialism. what is Essential? [Who are you, and what do you want?](https://www.youtube.com/watch?v=2WhoIu9b1Gw)
