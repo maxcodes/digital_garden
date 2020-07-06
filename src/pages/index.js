@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PostLink from "../components/post-link";
 import HeroHeader from "../components/heroHeader";
+import sortBy from "lodash/sortBy";
 
 const IndexPage = ({
   data: {
@@ -11,7 +12,7 @@ const IndexPage = ({
     allMdx: { edges }
   }
 }) => {
-  const Posts = edges.map(edge => (
+  const Posts = sortBy(edges, edge => edge.node.frontmatter.title).map(edge => (
     <PostLink key={edge.node.id} post={edge.node} />
   ));
 
