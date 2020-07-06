@@ -1,67 +1,66 @@
 ---
 template: BlogPost
-title: Avatar
+title: Avatar: Do Not Bite Off More Than You Can Chew
 thumbnail: ""
-metaDescription: ""
+metaDescription: "A painful lesson"
 ---
 
-- This is an in-progress outline of a post I ~~want~~ *wanted* to write _and then it got too big, too ambitious and I lost motivation._ on the series Avatar:
-  The Last Airbender.
-- Setup -- 
-    - "100% on Rotten Tomatoes"
-    - "[[Endurance: Shackleton's Incredible Voyage]] was the inspiration!!!!!!"
-    - "concepts rarely touched on in youth entertainment,[3] such as genocide, totalitarianism and free choice."
-    - "concepts rarely touched on in youth entertainment,[3] including issues relating to war, genocide, imperialism and totalitarianism, gender discrimination and female empowerment, marginalization and oppression, as well as the philosophical questions surrounding fate, destiny and free choice."
-        - "P: ^^**people who choose unfree ways to live, when seeing free people, criticise them as hedonistic. This is a lie to help one accept his own unfree life.**^^ **Truly free people do not make such comments; they cheer on the will to be free**"
-            - Zuko pursues the Avatar. He himself is not free.
-        - "the series touches on themes of "genocide and self-doubt" without frightening younger children"
-        - "nefarious activities of the city's secret police. These situations show the corrupting nature of power and the nuances of good and evil"
-    - "set in a world where human civilization consists of four nations, named after the four classical elements: the Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads"
-    - "benders manipulate and control their nation's element using martial arts"
-    - "The Avatar is the only person with the ability to bend all four elements."
-    - "Its character designs are influenced by Chinese art and history, Hinduism, Taoism and Buddhism, and Yoga."
-- Symbolism
-    - "mythic resonance"
-        - you know when stuff is real
-            - "We chose the word "Avatar" because it is an ancient Hindu word meaning "a temporary manifestation of a continuing entity.""
-            - "Sokka means "Is that so?" in Japanese, which emulate his intellectual capabilities"
-            - "In Malai, Indonesian, and other Indian languages, Bumi means earth."
-            - "Monk Gyatso is named after the Dalai Lama, whose name is Tenzin Gyatso"
-            - "Agni-Kai – a traditional Firebender duel"
-                - "Agni -- Fire in Sanskrit"
-                - "Kai -- Japanese for "meeting" or "together""
-            - the fights, the stances. they all stem from different martial arts. 
-                - how those arts where chosen...they make sense. but why? There's something to be said about movement evoking emotions, evoking things.
-                - "practitioners of "waterbending" use movements influenced by T'ai chi and focused on alignment, body structure, breath, and visualization. Hung Gar was the inspiration for practitioners of "earthbending", and was chosen for its firmly rooted stances and powerful strikes as a representation of the solidity of earth. Northern Shaolin, which uses strong arm and leg movements, was chosen to represent "firebending". Ba Gua, which uses dynamic circular movements and quick directional changes, was used for "airbending""
-                    - "These nuances add a layer to the fight scenes: Aang is evasive and light on foot, never attacking and always dodging; Katara keeps a pouch of water like a fanny pack, which she uses as a whip, ice daggers, or even for healing; and Zuko, especially early on, bends fire with evident rage."
-                        - "emotional authenticity"
-                            - Emotions
-                                - Affect the power and accuracy of Katara's bending
-                - 
-    - "Sites such as the Forbidden City and the Great Wall of China in Beijing were inspirations for the Earth Kingdom city of Ba Sing Se"
-    - "Water Tribe locations were based on Inuit and Sireniki cultures"
-    - "the Fire Temple was based on the Yellow Crane Tower"
-    - 
-- analogies to my own life 
-    - The delivery of wisdom through Iroh.
-        - It goes beyond words...the medium is the message. something about it makes my tendencies to ignore authority completely shut off. 
-        - Iroh shows empathy. I follow Iroh because he's not hiding anything from me. He's being **genuine**. 
-        - "When Aang fails to master the Avatar State because he goes to rescue Katara, Iroh reassures him that picking love and friendship was the right decision—that love trumps access to immense power."
-    - katara motherly instincts challenged or heightened when toph arrives because tops is younger than her and not a "master" like the other teachers 
-- Identity
-    - "who are you, what do you want?"
-        - "https://www.youtube.com/watch?v=aYkuuu9u3EI&feature=emb_logo Iroh speech to Zuko"
-    - "the series touches on themes of "genocide and self-doubt" without frightening younger children"
-    - "challenging questions of self: Does he have what it takes to kill Fire Lord Ozai, even if it goes against his principles? Will his love for Katara ruin their friendship if she doesn’t feel similarly?"
-    - Buried Shame
-        - shame, specifically shame avoidance, is a great motivator to do the wrong things.
-        - Pride is not the opposite of shame, but it's source. - Iroh
-        - "There’s a little Zuko in us all. We all hope to regain our honor in life, we’ve all been misunderstood and want to prove people wrong—especially the ones that mean the most to us."
-        - "unlearn his ingrained, toxic beliefs about manhood and honor"
-- Conclusions
-    - "power corrupts and how inequality poisons everything"
-    - "the cycle of violence hurts the innocent"
-        - "Katara declines to take down the man who killed her mother, sending a very powerful message at the end of the third season about breaking the cycle."
-    - "__The Last Airbender__ ends up being a show about human beings’ extraordinary ability to empathize with nearly anyone, given the right conditions."
-    - "the show’s only true villains are those who refuse to engage in empathy and humanity"
-    - The Siege of the North: It's a true, genuine epic. At once a catharsis of a season and it's own beautiful story within the story. There's so much I can say, but I'm really just sitting with it.
+- One of the first sprouts that made its way into the garden was an outline of a
+  post I wanted to make on the series "Avatar: The Last Airbender".
+- I wanted to write it because I had just finished watching the show for the
+  first time, and I was absolutely floored. It is probably the best series I've
+  ever watched, period. And if you know me, I'm not the kind of person who says that about everything I see. It is truly a work of art, covering hard topics like genocide, gender discrimination, war, and free choice while still remaining a children-friendly show.
+  - You know someone understands a topic deeply if they can explain complex
+    terms simply.
+- As I was preparing and researching what was written already, I became more and
+  more invested in it, and allowed the scope of the project to balloon out of
+  control. I had a lot of things to say, and I wanted it to be perfect.
+- So what happened? After weeks of research, I had an outline. I had the main
+  topics I wanted to cover, and I had drawn other examples from other sources to
+  paint a better picture.
+  - For example: In "The Courage to Be Disliked", the professor says: "people who choose unfree ways to live, when seeing free people, criticise them as hedonistic. This is a lie to help one accept his own unfree life."
+  - This is a useful lens through which to see Zuko's narrative arc: He
+    despises Avatar Aang because he himself is not free, and can't bear to see
+    him roaming around freely. When Zuko finally takes control of his own
+    destiny (["who are you, and what do you want?"](https://www.youtube.com/watch?v=aYkuuu9u3EI&feature=emb_logo)), he joins the group in their fight against Firelord Ozai.
+  - Another example: I had just finished reading "Endurance: Shackleton's
+    Incredible Voyage" and discovered that the events described in the book were
+    the inspiration for the beginning episodes of the show. The parallels are
+    obvious in retrospect!
+- And yet when the time came to sit down and make it all into a coherent piece,
+  the burning motivation was gone. I had satisfied my own curiosity and let the
+  novelty of it wear off.
+- So, I bit more than I could chew. And I learned the following lessons:
+
+  1. When you feel the motivation to write, write! Use the motivation to sit
+     down and type your heart out. It won't last forever!
+  1. Keep it small, keep it manageable. A short, solid piece is better than no
+     piece at all.
+
+- To close, here are the best tidbits from my research:
+
+  - Mythic resonance. We humans have a way of _knowing_ when something is real.
+    Element bending felt real. Why? Because they put real thought into choosing
+    which martial arts represented which bending styles.
+
+    - "Waterbending" uses movements influenced by T'ai chi
+      and focused on alignment, body structure, breath, and visualization.
+    - Hung Gar was the inspiration for practitioners of "earthbending", and
+      was chosen for its firmly rooted stances and powerful strikes as a
+      representation of the solidity of earth.
+    - Northern Shaolin, which uses strong arm and leg movements, was chosen to
+      represent "firebending".
+    - Ba Gua, which uses dynamic circular movements and quick directional
+      changes, was used for "airbending""
+    - "These nuances add a layer to the fight scenes: Aang is evasive and
+      light on foot, never attacking and always dodging; Katara keeps a pouch
+      of water like a fanny pack, which she uses as a whip, ice daggers, or even for
+      healing; and Zuko, especially early on, bends fire with evident rage."
+      - I lost the source of this citation, but it's pretty spot on.
+
+  - "We chose the word "Avatar" because it is an ancient Hindu word meaning "a
+    temporary manifestation of a continuing entity."" - The Directors
+
+  - "the show’s only true villains are those who refuse to engage in empathy and humanity"
+
+- I had so much more, but this will have to suffice for now.
