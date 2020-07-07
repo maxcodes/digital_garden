@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-title: Avatar: Do Not Bite Off More Than You Can Chew
+title: Avatar - Do Not Bite Off More Than You Can Chew
 thumbnail: ""
 metaDescription: "A painful lesson"
 ---
