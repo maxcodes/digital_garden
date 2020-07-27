@@ -23,3 +23,11 @@ metaDescription: ""
   - Think about how success looks like in 20 years, and work backwards.
 - From Loving What Is
   - Stop fighting reality.
+- From The Surrender Experiment
+  - Get to know your inner voice
+    - And more specifically: learn to identify the mask that is speaking
+  - Hold the fort until a solution makes itself known. Trust the process. Life is
+    infinitely smarter than you.
+  - Do whatever is put in front of you with all your heart and soul without
+    regard for personal results. Do the work as though it were given to you by
+    the universe itself - because it was.
