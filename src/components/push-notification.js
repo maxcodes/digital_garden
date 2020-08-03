@@ -1,5 +1,12 @@
 const PushNotification = () => {
-  if (process.env.NODE_ENV === "development" || typeof window === "undefined") return null;
+  if (
+    process.env.NODE_ENV === "development" ||
+    typeof window === "undefined" ||
+    typeof navigator === "undefined" ||
+    navigator.userAgent.match(/bot|spider/i)
+  )
+    return null;
+
   const payload = {
     secretUser: "max",
     userId: "max",
