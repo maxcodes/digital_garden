@@ -1,0 +1,14 @@
+---
+template: BlogPost
+title: Happy Button
+thumbnail: ""
+metaDescription: "A happy button"
+---
+
+import pushNotification from "../src/components/push-notification"
+
+<div className="flex center">
+  <button className="button button-primary mt-2" onClick={() => { pushNotification("I am happy")} }>
+    Press me to send Max a push notification saying "I am happy"
+  </button>
+</div>

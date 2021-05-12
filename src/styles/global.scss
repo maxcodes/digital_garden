@@ -22,7 +22,7 @@ body.light {
   --card-shadow: darken(var(--card-bg), 10%);
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
-  --btn-text-color: #868892;
+  --btn-text-color: #fff;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
   --contact-bg: #f7f8fe;
@@ -118,6 +118,7 @@ a {
   margin-bottom: 0.5rem;
 }
 .button {
+  cursor: pointer;
   padding: 18px 27px;
   display: inline-block;
   background: var(--btn-bg);
@@ -374,5 +375,5 @@ ul {
 
 // second level
 ul ul {
-  padding-left: 30px;
+  padding-left: 40px;
 }

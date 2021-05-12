@@ -1,4 +1,4 @@
-const PushNotification = () => {
+const pushNotification = (content = null) => {
   if (
     process.env.NODE_ENV === "development" ||
     typeof window === "undefined" ||
@@ -8,7 +8,7 @@ const PushNotification = () => {
     return null;
 
   const payload = {
-    pushContent: `New garden-curious visitor! ${window.location.pathname}`
+    pushContent: content || `New garden-curious visitor! ${window.location.pathname}`
   };
 
   const stringified = JSON.stringify(payload);
@@ -27,7 +27,5 @@ const PushNotification = () => {
     "jovenmaiz",
   );
   xmlhttp.send(stringified);
-
-  return null;
 };
-export default PushNotification;
+export default pushNotification;
