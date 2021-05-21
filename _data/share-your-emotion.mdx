@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-title: Happy Button
+title: Share your emotion
 thumbnail: ""
 metaDescription: "A happy button"
 ---
@@ -8,7 +8,14 @@ metaDescription: "A happy button"
 import pushNotification from "../src/components/push-notification"
 
 <div className="flex center">
+  I get a push notification every time you click any of the buttons below:
+</div>
+
+<div className="flex center">
   <button className="button button-primary mt-2" onClick={() => { pushNotification("I am happy")} }>
-    Press me to send Max a push notification saying "I am happy"
+    I am happy
+  </button>
+  <button className="button button-primary mt-2" onClick={() => { pushNotification("I am not happy")} }>
+    I am not happy
   </button>
 </div>
