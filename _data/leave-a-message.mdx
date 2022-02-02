@@ -1,0 +1,26 @@
+---
+template: BlogPost
+title: Leave a Message
+thumbnail: ""
+metaDescription: "Leave an anonymous message for Max"
+---
+
+import pushNotification from "../src/components/push-notification"
+
+<div className="flex center">
+  Wanna tell me something? Just type it in below and click send and it'll show up anonymously in my phone as a push notification. 
+</div>
+
+<div className="flex center mt-4">
+  <div className="form-container center mt-4" style="width: 30%">
+  <input type="text" id="input" />
+  <div className="flex center">
+  <button className="button button-primary mt-2" onClick={() => {
+    pushNotification(document.querySelector("#input").value)
+    alert("sent!")
+  } }>
+    Submit
+  </button>
+  </div>
+  </div>
+</div>
