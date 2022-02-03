@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+
 export default () => (
   <div className="hero-header">
     <div className="headline">What is a Digital Garden?</div>
@@ -18,14 +20,10 @@ export default () => (
       be delighted for a friendship to grow out of any of these sprouts!
       <ul style={{ paddingTop: 15 }}>
         <li>
-          <a href="mailto:digitalgarden@maxholzheu.com">Click here</a> to send
-          me an email.
-        </li>
-        <li>
-          <a href="https://twitter.com/messages/compose?recipient_id=158602524">
-            Click here
-          </a>{" "}
-          to send me a Twitter DM.
+          <Link to="/leave-a-message">
+            Click here{" "}
+          </Link>
+          to send me a Push Notification directly to my phone.
         </li>
       </ul>
     </div>
