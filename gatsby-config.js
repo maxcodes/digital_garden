@@ -50,7 +50,7 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-dark-mode",
+    "@skagami/gatsby-plugin-dark-mode",
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`
