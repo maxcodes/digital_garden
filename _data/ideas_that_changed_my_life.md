@@ -14,4 +14,7 @@ explaining these soon.
 - You are in charge of your own education. Stop waiting for people to choose
   you, and choose yourself.
 - Money is abundant.
-- You can't feel fulfilled if you don't exercise your body.
+- Your life tops out at 60% if you don't exercise your body. You need to
+  exercise if you want to squeeze that 40% remaining out of your life.
+- The PARA system for organizing information.
+- The VIEW framework for cultivating empathy and connection.
