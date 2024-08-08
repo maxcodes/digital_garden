@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default () => (
+export default heroHeader = () => (
   <div className="hero-header">
-    <div className="headline">What is a Digital Garden?</div>
+    <div className="headline">Welcome to Max's Digital Garden</div>
     <div className="primary-content">
-      A garden is best viewed as compared to the current paradigm of the web:
-      the Stream. We live in a world where everything is happening right now,
-      where <em>reaction</em> is much more common than <em>action</em>. What I'm
-      striving for in this little corner of the web is to contribute content
-      that a. evolves over time, and b. is timeless. A personal wikipedia of
-      sorts. And by doing so, I hope to show that the process of connecting and
-      building and extending the work of others is as human and engaging as the
-      conversational Stream.
+      Why a garden a not a blog? We live in a world where everything is
+      happening right now, where <em>reaction</em> is much more common than
+      <em>action</em>. What I'm striving for in this little corner of the web is
+      to contribute content that a. evolves over time, and b. is timeless. A
+      personal wikipedia of sorts. And by doing so, I hope to show that the
+      process of connecting and building and extending the work of others is as
+      human and engaging as the traditional blog.
     </div>
     <div className="primary-content">
       A secondary goal is that I’d also like to extend an invitiation for others
