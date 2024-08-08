@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default heroHeader = () => (
+const heroHeader = () => (
   <div className="hero-header">
     <div className="headline">Welcome to Max's Digital Garden</div>
     <div className="primary-content">
@@ -28,3 +28,5 @@ export default heroHeader = () => (
     </div>
   </div>
 );
+
+export default heroHeader;
