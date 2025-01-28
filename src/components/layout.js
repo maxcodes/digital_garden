@@ -24,7 +24,7 @@ export default ({ children }) => {
         <Navigation />
       </header>
       <div style={{ paddingBottom: 64 }}>{children}</div>
-      <div className="flex center">
+      {/* <div className="flex center">
         <iframe
           title="Newsletter"
           src="https://maxholzheu.substack.com/embed"
@@ -34,7 +34,7 @@ export default ({ children }) => {
           frameBorder="0"
           scrolling="no"
         ></iframe>
-      </div>
+      </div> */}
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Max Holzheu</p>
       </footer>

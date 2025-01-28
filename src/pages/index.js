@@ -20,7 +20,7 @@ const IndexPage = ({
     <Layout>
       <SEO isRoot />
       <HeroHeader />
-      <h2>Sprouts</h2>
+      <h2>Posts</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );
