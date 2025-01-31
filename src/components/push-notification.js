@@ -30,7 +30,7 @@ const getCountryFlag = async () => {
 
 const pushNotification = async (content = null) => {
   if (
-    process.env.NODE_ENV !== "development" ||
+    process.env.NODE_ENV === "development" ||
     typeof window === "undefined" ||
     typeof navigator === "undefined" ||
     isBot(navigator.userAgent)
