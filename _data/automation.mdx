@@ -1,0 +1,126 @@
+---
+template: BlogPost
+title: Claude
+thumbnail: ""
+metaDescription: "My journey discovering Claude Code and how AI agents are transforming how I build and automate my life"
+---
+
+There's something fundamentally different about having an AI agent that can read
+and modify files directly on your computer. Not through an API. Not through a
+web interface. But right there, in your folders, alongside your code and
+personal files.
+
+I've been playing with [Claude Code](https://claude.ai/code) lately, and I'm
+convinced we're witnessing the early days of how personal automation will work
+in the future.
+
+## The "Aha" Moment
+
+The realization hit me when I started using Claude Code for something mundane:
+[cooking](https://github.com/maxcodes/cooking-with-claude/tree/main/examples/christmas-2025).
+Over a few hours, my mom and I planned two 4-course meals and a turkey in a
+seemingly effortless manner.
+
+I gave the agent access to a folder. It could read my recipes, modify them,
+create shopping lists, adjust portions, even remember and save my preferences
+and workflows. Add nutritional values to a recipe? Done. Missing a recipe? Here
+are three options. Gluten free version? No problemo. This wasn't just a chatbot
+helping me cook — this was an assistant that lived in my file system, evolving
+with me.
+
+That's when it clicked: **this is what personal automation should feel like.**
+
+## Automating Everything
+
+Once you have an agent with file system access, everything changes. I'm now
+building several personal projects entirely differently than before:
+
+- **Prototyping**: I describe what I want, the agent scaffolds it, we iterate in
+  real-time
+- **Debugging**: Point it at a folder, it reads the context, finds issues,
+  suggests fixes
+- **Documentation**: It writes docs by actually reading my code, not guessing
+- **Refactoring**: It can see the entire codebase structure and maintain
+  consistency
+
+The feedback loop is completely different. It's not about generating code
+snippets anymore — it's about collaborative development with something that can
+see and touch the same files you're working with. Sometimes those files are
+code, but it works just as well with plaintext or markdown files.
+
+## Mobile Agents with Happy
+
+One of the first concessions I had to make was that since the agent is not "in
+the cloud", I had to be in front of my computer in order to interact with my
+agents. But what if I have an idea for a project on the go? I was already
+thinking of building a mobile solution but then I found
+[Happy](https://github.com/slopus/happy). It's a wrapper of Claude Code that
+still runs on my machine, has access to my files and context, but I can interact
+with it from my phone. Problem solved!
+
+Imagine being at the store and asking your agent to check what ingredients you
+already have at home by reading your inventory file. Or having an idea for a
+feature while walking and dictating it to your agent, which immediately opens
+the relevant files and starts planning the implementation.
+
+This is the bridge between "computing" and "living" — agents that follow you
+throughout your day, not just when you're at a keyboard.
+
+## MCPs: Giving Agents Superpowers
+
+Then there's the Model Context Protocol (MCP). This is where things get wild.
+
+MCPs let you give your agents specific capabilities and skills. Want your agent
+to control your smart home? Check your calendar? Query your database? Send
+emails? MCPs make it possible.
+
+The pattern I'm seeing emerge:
+1. **Context** (file system access + relevant data)
+2. **Capabilities** (MCPs that let the agent interact with specific
+tools/services)
+3. **Access** (natural language interface to orchestrate everything, from
+anywhere)
+
+Put those three together, and you have something that starts to feel like a
+personal operating system.
+
+## What This Means
+
+I think we're at the beginning of a major shift in how we interact with our
+computers.
+
+For years, automation meant:
+- Learning scripting languages
+- Setting up complex workflows
+- Maintaining brittle integrations
+- Doing things the computer's way
+
+But with AI agents that understand natural language, can read and write files,
+and have access to the right tools through MCPs, automation becomes
+conversational.
+
+You describe what you want. The agent figures out how to do it. You iterate
+together. It learns your patterns and preferences over time.
+
+This isn't just about writing code faster. It's about delegating entire
+categories of tasks to something that can work alongside you, in your
+environment, with your context.
+
+## Getting Started
+
+If you're curious about this:
+
+- Try [Claude Code](https://claude.ai/code) — give it access to a small project
+  folder and see what happens
+- Check out [Happy](https://github.com/slopus/happy) if you want mobile access
+  to your agents
+- Explore [AgentSkills](https://agentskills.io/home) to understand how to
+  package a workflow into a repeatable process that an agent can execute.
+- Start small: automate one annoying task in your life
+
+The future of personal automation isn't about replacing developers or making
+humans obsolete. It's about augmenting what we can do, reducing friction, and
+letting us focus on the interesting problems while delegating the tedious stuff.
+
+And honestly? It's just fun to have an intelligent assistant living in your
+computer, ready to help with whatever you're working on.

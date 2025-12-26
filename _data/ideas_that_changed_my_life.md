@@ -16,4 +16,6 @@ explaining these soon.
 - Money is abundant.
 - Your life tops out at 60% if you don't exercise your body. You need to
   exercise if you want to squeeze that 40% remaining out of your life.
-- The VIEW framework for cultivating empathy and connection.
+- The [VIEW
+  framework](https://www.artofaccomplishment.com/podcast/introduction-to-view)
+for cultivating empathy and connection.
