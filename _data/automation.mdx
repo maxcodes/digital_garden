@@ -48,15 +48,31 @@ snippets anymore — it's about collaborative development with something that ca
 see and touch the same files you're working with. Sometimes those files are
 code, but it works just as well with plaintext or markdown files.
 
-## Mobile Agents with Happy
+## Mobile Agents with Clawdbot
 
 One of the first concessions I had to make was that since the agent is not "in
 the cloud", I had to be in front of my computer in order to interact with my
-agents. But what if I have an idea for a project on the go? I was already
-thinking of building a mobile solution but then I found
-[Happy](https://github.com/slopus/happy). It's a wrapper of Claude Code that
-still runs on my machine, has access to my files and context, but I can interact
-with it from my phone. Problem solved!
+agents. But what if I have an idea for a project on the go?
+
+Enter [Clawdbot](https://github.com/clawdbot/clawdbot). It's a gateway that
+connects Claude Code to messaging platforms like Telegram, WhatsApp, Discord,
+and more. It still runs on my machine, has access to my files and context, but I
+can interact with it from anywhere via my phone.
+
+I named my instance "Chiko" 🌱 and it's become genuinely useful:
+
+- **Voice messages**: I send voice notes, it transcribes and responds
+- **Proactive updates**: It checks in each morning with ideas or status updates
+- **Background tasks**: I can kick off coding tasks that run overnight — it
+  spawns sub-agents, does the work, and pings me when done
+- **Daily summaries**: It drafts my Basecamp check-ins by checking my GitHub
+  activity, calendar, and email
+- **Memory**: It maintains notes across sessions so it remembers context about
+  my work and preferences
+
+The magic is that it's not just a chatbot — it's an agent with full access to my
+filesystem, tools, and the ability to spawn other agents. I can dictate a task
+while walking, and wake up to a PR ready for review.
 
 Imagine being at the store and asking your agent to check what ingredients you
 already have at home by reading your inventory file. Or having an idea for a
@@ -112,8 +128,8 @@ If you're curious about this:
 
 - Try [Claude Code](https://claude.ai/code) — give it access to a small project
   folder and see what happens
-- Check out [Happy](https://github.com/slopus/happy) if you want mobile access
-  to your agents
+- Check out [Clawdbot](https://github.com/clawdbot/clawdbot) if you want mobile
+  access to your agents via Telegram, WhatsApp, or other messaging platforms
 - Explore [AgentSkills](https://agentskills.io/home) to understand how to
   package a workflow into a repeatable process that an agent can execute.
 - Start small: automate one annoying task in your life
