@@ -18,15 +18,19 @@ const isBot = (userAgent) => {
   return botPatterns.some(pattern => userAgent.match(pattern));
 };
 
-const getCountryFlag = async () => {
+const getCountryInfo = async () => {
   try {
     const response = await fetch("https://ipapi.co/json/");
     const data = await response.json();
-    return data.country_code ? `${String.fromCodePoint(...data.country_code.toUpperCase().split("").map(char => char.charCodeAt(0) + 127397))} ` : "";
+    const flag = data.country_code ? `${String.fromCodePoint(...data.country_code.toUpperCase().split("").map(char => char.charCodeAt(0) + 127397))} ` : "";
+    return { flag, countryCode: data.country_code || "" };
   } catch (error) {
-    return "";
+    return { flag: "", countryCode: "" };
   }
 };
+
+// Countries to filter out (no notifications)
+const FILTERED_COUNTRIES = ["SG"]; // Singapore
 
 const pushNotification = async (content = null) => {
   if (
@@ -37,7 +41,13 @@ const pushNotification = async (content = null) => {
   )
     return null;
 
-  const flag = await getCountryFlag();
+  const { flag, countryCode } = await getCountryInfo();
+  
+  // Skip notifications from filtered countries
+  if (FILTERED_COUNTRIES.includes(countryCode)) {
+    return null;
+  }
+
   const message = content || `New visitor from ${flag} ${window.location.pathname}`;
 
   const formData = new FormData();
