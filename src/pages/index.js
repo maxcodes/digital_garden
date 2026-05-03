@@ -10,6 +10,11 @@ const recommendedBooks = [
     tone: "yellow"
   },
   {
+    title: "Meditations",
+    label: "Wisdom",
+    tone: "cream"
+  },
+  {
     title: "Loving What Is",
     label: "The Work",
     tone: "green"
@@ -20,16 +25,13 @@ const recommendedBooks = [
     tone: "orange"
   },
   {
-    title: "Meditations",
-    label: "Wisdom",
-    tone: "cream"
-  },
-  {
     title: "Gödel, Escher, Bach",
     label: "Wonder",
     tone: "navy"
   }
 ];
+
+const featuredAudiobooks = ["The Art of Asking · Amanda Palmer", "Greenlights · Matthew McConaughey"];
 
 const values = ["Liberty", "Honesty", "Connection", "Curiosity"];
 
@@ -85,9 +87,9 @@ const IndexPage = () => (
           <section className="garden-tile garden-ideas garden-orange" aria-labelledby="ideas-title">
             <h2 id="ideas-title">Ideas that changed my life</h2>
             <p>
-              Not quote spam — the canonical intro to my worldview: choose
-              yourself, money is abundant, move your body, practice VIEW, and
-              build from first principles.
+              Groundbreaking ideas that changed the course of my life — the
+              beliefs and frameworks I keep coming back to when I need to choose
+              myself, act from abundance, move my body, or connect more honestly.
             </p>
             <Link className="garden-link" to="/ideas_that_changed_my_life">
               Read the ideas →
@@ -101,19 +103,24 @@ const IndexPage = () => (
             <h2 id="reading-title">Currently reading</h2>
             <div className="current-reading-row">
               <div className="book-cover -red -current">
-                <strong>Children of Killing</strong>
+                <strong>Children of Dune</strong>
                 <span>Reading</span>
               </div>
               <p>
-                Plus a second book I need to confirm. This becomes a tiny live
-                status, not a static archive.
+                Plus a second book I need to confirm. Follow along on{" "}
+                <a href="https://www.goodreads.com/user/show/89587135-max-holzheu">Goodreads</a>.
               </p>
             </div>
           </section>
 
           <section className="garden-tile garden-audio compact" aria-labelledby="audio-title">
             <h2 id="audio-title">Audiobooks</h2>
-            <p>The same shelf for ears: excellent for travel, walks, workouts.</p>
+            <p>Some books are better when the author narrates them.</p>
+            <div className="audio-preview-list" aria-label="Featured audiobooks">
+              {featuredAudiobooks.map(audiobook => (
+                <span key={audiobook}>{audiobook}</span>
+              ))}
+            </div>
             <Link className="garden-link" to="/audiobooks">
               Listen →
             </Link>

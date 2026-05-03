@@ -5,11 +5,9 @@ thumbnail: ""
 metaDescription: ""
 ---
 
-Note: I feel obliged to excuse
-myself for the lack of context offered here. These are _deep_ ideas that can't
-really be explained by a simple bullet point and have had a profound effect. But
-they are currently punchlines without a story. I hope to get around to
-explaining these soon.
+These are groundbreaking ideas that have changed the course of my life. Some came from books, some from conversations, some from hard-won experience — but each one changed how I act, what I pay attention to, or what I believe is possible.
+
+I'm expanding these over time with the stories behind them. For now, this is the short list I keep coming back to.
 
 - You are in charge of your own education. Stop waiting for people to choose
   you, and choose yourself.
