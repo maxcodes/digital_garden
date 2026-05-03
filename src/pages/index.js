@@ -31,8 +31,6 @@ const recommendedBooks = [
   }
 ];
 
-const featuredAudiobooks = ["The Art of Asking · Amanda Palmer", "Greenlights · Matthew McConaughey"];
-
 const values = ["Liberty", "Honesty", "Connection", "Curiosity"];
 
 const IndexPage = () => (
@@ -116,18 +114,13 @@ const IndexPage = () => (
 
           <section className="garden-tile garden-audio compact" aria-labelledby="audio-title">
             <h2 id="audio-title">Audiobooks</h2>
-            <p>Some books are better when the author narrates them.</p>
-            <div className="audio-preview-list" aria-label="Featured audiobooks">
-              {featuredAudiobooks.map(audiobook => (
-                <span key={audiobook}>{audiobook}</span>
-              ))}
-            </div>
+            <p>
+              Some books are better in the author's own voice. Timing, humor,
+              and emotion can change how they land.
+            </p>
             <Link className="garden-link" to="/audiobooks">
-              Listen →
+              View recommendations →
             </Link>
-            <span className="garden-watermark" aria-hidden="true">
-              ◒
-            </span>
           </section>
 
           <section className="garden-tile garden-agentic garden-red compact" aria-labelledby="agentic-title">

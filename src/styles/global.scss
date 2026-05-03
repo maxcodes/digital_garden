@@ -1046,33 +1046,9 @@ body.dark {
   }
 }
 
-.audio-preview-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-top: 10px;
-}
-.audio-preview-list span {
-  display: inline-flex;
-  width: max-content;
-  max-width: 100%;
-  border: 1.5px solid #26211b;
-  border-radius: 999px;
-  padding: 5px 8px;
-  background: #f0dfc7;
-  color: #26211b;
-  font-size: 10px;
-  font-weight: 900;
-  letter-spacing: 0.04em;
-}
 .current-reading-row a {
   color: #7f2318;
   font-weight: 900;
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-@media (max-width: 900px) {
-  .audio-preview-list span {
-    width: auto;
-  }
 }
