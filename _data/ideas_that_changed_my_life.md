@@ -5,7 +5,7 @@ thumbnail: ""
 metaDescription: ""
 ---
 
-These are groundbreaking ideas that have changed the course of my life. Some came from books, some from conversations, some from hard-won experience — but each one changed how I act, what I pay attention to, or what I believe is possible.
+These are groundbreaking ideas that have changed the course of my life. Some came from books, some from conversations, and some from hard-won experience. Each one changed how I act, what I pay attention to, or what I believe is possible.
 
 I'm expanding these over time with the stories behind them. For now, this is the short list I keep coming back to.
 

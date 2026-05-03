@@ -42,7 +42,7 @@ const IndexPage = () => (
       <section className="garden-frame">
         <header className="garden-topbar">
           <Link className="garden-brand" to="/">
-            Max Holzheu — digital garden
+            Max Holzheu · digital garden
           </Link>
           <nav className="garden-nav" aria-label="Featured pages">
             <Link to="/books">Books</Link>
@@ -87,9 +87,10 @@ const IndexPage = () => (
           <section className="garden-tile garden-ideas garden-orange" aria-labelledby="ideas-title">
             <h2 id="ideas-title">Ideas that changed my life</h2>
             <p>
-              Groundbreaking ideas that changed the course of my life — the
-              beliefs and frameworks I keep coming back to when I need to choose
-              myself, act from abundance, move my body, or connect more honestly.
+              Groundbreaking ideas that changed the course of my life. These
+              are the beliefs and frameworks I keep coming back to when I need
+              to choose myself, act from abundance, move my body, or connect
+              more honestly.
             </p>
             <Link className="garden-link" to="/ideas_that_changed_my_life">
               Read the ideas →
@@ -107,7 +108,7 @@ const IndexPage = () => (
                 <span>Reading</span>
               </div>
               <p>
-                Plus a second book I need to confirm. Follow along on{" "}
+                Follow along on{" "}
                 <a href="https://www.goodreads.com/user/show/89587135-max-holzheu">Goodreads</a>.
               </p>
             </div>
