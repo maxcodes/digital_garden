@@ -935,3 +935,113 @@ body.dark {
     margin-bottom: 0.4rem;
   }
 }
+
+/* Books page bookshelf treatment */
+.reading-now-callout {
+  border: 2px solid #26211b;
+  border-radius: 22px;
+  padding: 22px;
+  margin: 28px 0 34px;
+  background: #f5c84b;
+  color: #26211b;
+  box-shadow: 5px 5px 0 #26211b;
+}
+.reading-now-callout h2 {
+  margin: 4px 0 8px;
+}
+.mini-kicker {
+  display: inline-block;
+  color: #c34a2c;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.book-gallery {
+  display: grid;
+  gap: 22px;
+  margin-top: 28px;
+}
+.book-feature {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+  border: 2px solid #26211b;
+  border-radius: 22px;
+  padding: 22px;
+  background: #fffaf1;
+  box-shadow: 5px 5px 0 #26211b;
+}
+.book-feature:nth-child(4n + 1) {
+  background: #f0dfc7;
+}
+.book-feature:nth-child(4n + 2) {
+  background: #eef0d2;
+}
+.book-feature:nth-child(4n + 3) {
+  background: #f7dfcb;
+}
+.book-feature > a {
+  display: block;
+  color: inherit;
+}
+.book-feature img {
+  width: 132px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border: 2px solid #26211b;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #26211b;
+  background: #f0dfc7;
+}
+.book-feature h2 {
+  margin: 4px 0 2px;
+  font-size: clamp(26px, 4vw, 38px);
+  line-height: 0.98;
+}
+.book-author {
+  margin-bottom: 14px !important;
+  color: #665b50 !important;
+  font-weight: 800;
+}
+.book-feature p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 700px) {
+  .reading-now-callout {
+    padding: 18px;
+    margin: 22px 0 26px;
+    box-shadow: 4px 4px 0 #26211b;
+  }
+  .book-feature {
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 16px;
+    padding: 16px;
+    box-shadow: 4px 4px 0 #26211b;
+  }
+  .book-feature img {
+    width: 96px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 #26211b;
+  }
+  .book-feature h2 {
+    font-size: 24px;
+  }
+  .book-feature p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+}
+@media (max-width: 430px) {
+  .book-feature {
+    display: block;
+  }
+  .book-feature img {
+    width: 116px;
+    margin: 0 0 18px;
+  }
+  .book-feature h2 {
+    font-size: 26px;
+  }
+}
