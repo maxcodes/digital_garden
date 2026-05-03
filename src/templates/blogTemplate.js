@@ -17,8 +17,11 @@ export default function Template({
       <SEO frontmatter={frontmatter} />
       <div className="blog-post-container">
         <article className="post">
+          <span className="post-kicker">Digital Garden</span>
           <h1 className="post-title">{frontmatter.title}</h1>
-          <MDXRenderer className="blog-post-content">{body}</MDXRenderer>
+          <div className="blog-post-content">
+            <MDXRenderer>{body}</MDXRenderer>
+          </div>
         </article>
       </div>
     </Layout>
