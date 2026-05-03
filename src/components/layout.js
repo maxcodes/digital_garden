@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import Navigation from "../components/navigation";
 import "prismjs/themes/prism-okaidia.css";
 
-export default ({ children }) => {
+export default ({ children, pageClassName = "" }) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -16,7 +16,7 @@ export default ({ children }) => {
     `
   );
   return (
-    <div className="site-wrapper">
+    <div className={`site-wrapper ${pageClassName}`}>
       <header className="site-header">
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
