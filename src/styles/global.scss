@@ -987,6 +987,7 @@ body.dark {
   color: inherit;
 }
 .book-feature img {
+  display: block;
   width: 132px;
   aspect-ratio: 2 / 3;
   object-fit: cover;
@@ -1039,7 +1040,7 @@ body.dark {
   }
   .book-feature img {
     width: 116px;
-    margin: 0 0 18px;
+    margin: 0 auto 18px;
   }
   .book-feature h2 {
     font-size: 26px;
