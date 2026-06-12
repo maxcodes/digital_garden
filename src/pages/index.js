@@ -136,7 +136,7 @@ const IndexPage = () => (
 
           <section className="garden-tile garden-now compact" aria-labelledby="now-title">
             <h2 id="now-title">Now</h2>
-            <p>London. Cambridge. Pleasantly surprised.</p>
+            <p>World Cup month. Kinielita. Monterrey and New York.</p>
             <Link className="garden-link" to="/now">
               Current status →
             </Link>
