@@ -102,8 +102,8 @@ const IndexPage = () => (
             <h2 id="reading-title">Currently reading</h2>
             <div className="current-reading-row">
               <div className="book-cover -red -current">
-                <strong>Children of Dune</strong>
-                <span>Reading</span>
+                <strong>The Last Colony</strong>
+                <span>John Scalzi</span>
               </div>
               <p>
                 Follow along on{" "}
@@ -136,7 +136,7 @@ const IndexPage = () => (
 
           <section className="garden-tile garden-now compact" aria-labelledby="now-title">
             <h2 id="now-title">Now</h2>
-            <p>World Cup month. Kinielita. Monterrey and New York.</p>
+            <p>Back in Guatemala. Recurrente, gym, good food, good sleep.</p>
             <Link className="garden-link" to="/now">
               Current status →
             </Link>
