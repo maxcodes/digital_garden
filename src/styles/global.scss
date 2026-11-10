@@ -558,6 +558,24 @@ body.dark:has(.garden-home) {
   grid-column: 8 / 13;
   grid-row: 4 / 5;
 }
+.garden-more {
+  grid-column: 1 / -1;
+}
+.garden-more-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 18px 28px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.garden-more-links li {
+  margin: 0;
+}
+.garden-more-links p {
+  margin-top: 6px;
+  font-size: 13px;
+}
 .garden-link {
   display: inline-flex;
   margin-top: 12px;

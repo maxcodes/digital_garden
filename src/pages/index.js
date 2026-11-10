@@ -154,6 +154,36 @@ const IndexPage = () => (
               ))}
             </div>
           </section>
+
+          <section className="garden-tile garden-more" aria-labelledby="more-title">
+            <h2 id="more-title">More from the garden</h2>
+            <ul className="garden-more-links">
+              <li>
+                <Link className="garden-link" to="/guatemalan_food">
+                  Guatemalan Food →
+                </Link>
+                <p>A taste of home.</p>
+              </li>
+              <li>
+                <Link className="garden-link" to="/simple">
+                  Simple and Sinister Workout →
+                </Link>
+                <p>Notes on a one-kettlebell routine.</p>
+              </li>
+              <li>
+                <Link className="garden-link" to="/poem">
+                  Poem →
+                </Link>
+                <p>Rumi on asking for help.</p>
+              </li>
+              <li>
+                <Link className="garden-link" to="/changelog">
+                  Changelog →
+                </Link>
+                <p>How this garden has grown.</p>
+              </li>
+            </ul>
+          </section>
         </div>
       </section>
     </main>
