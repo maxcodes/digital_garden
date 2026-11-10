@@ -44,6 +44,7 @@ const IndexPage = () => (
           </Link>
           <nav className="garden-nav" aria-label="Featured pages">
             <Link to="/books">Books</Link>
+            <Link to="/games">Games</Link>
             <Link to="/ideas_that_changed_my_life">Ideas</Link>
             <Link to="/now">Now</Link>
             <Link to="/leave-a-message">Leave a message</Link>
@@ -102,7 +103,7 @@ const IndexPage = () => (
             <h2 id="reading-title">Currently reading</h2>
             <div className="current-reading-row">
               <div className="book-cover -red -current">
-                <strong>Leviathan Wakes</strong>
+                <strong>Caliban's War</strong>
                 <span>James S. A. Corey</span>
               </div>
               <p>
@@ -137,8 +138,8 @@ const IndexPage = () => (
           <section className="garden-tile garden-now compact" aria-labelledby="now-title">
             <h2 id="now-title">Now</h2>
             <p>
-              In the Galápagos with Isa: diving, iguanas, and one
-              surprisingly scary turtle.
+              Building useful software, getting stronger, and making time
+              for life with Isa.
             </p>
             <Link className="garden-link" to="/now">
               Current status →
