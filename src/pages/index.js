@@ -125,10 +125,10 @@ const IndexPage = () => (
           </section>
 
           <section className="garden-tile garden-agentic garden-red compact" aria-labelledby="agentic-title">
-            <h2 id="agentic-title">Agentic engineering</h2>
+            <h2 id="agentic-title">How to use AI well</h2>
             <p>
-              How to use powerful coding tools without losing taste, judgment,
-              or user focus.
+              Practical principles for delegating tasks, giving feedback,
+              and getting better work from AI agents.
             </p>
             <Link className="garden-link" to="/automation">
               Read more →

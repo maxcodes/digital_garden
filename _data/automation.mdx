@@ -1,140 +1,98 @@
 ---
 template: BlogPost
-title: Claude
+title: How to use AI well
 thumbnail: ""
-metaDescription: "My journey discovering Claude Code and how AI agents are transforming how I build and automate my life"
+metaDescription: "Practical principles for getting better work from AI agents, from everyday tasks to building software."
 ---
 
-There's something fundamentally different about having an AI agent that can read
-and modify files directly on your computer, right there in your folders,
-alongside your code and personal files.
+import { Link } from 'gatsby'
 
-I've been playing with [Claude Code](https://claude.ai/code) lately, and I'm
-convinced we're witnessing the early days of how personal automation will work
-in the future.
+The biggest change in how I use AI wasn't finding a better prompt. It was
+expecting it to do useful work, then teaching it what good work looks like.
 
-## The "Aha" Moment
+## How it started
 
-The realization hit me when I started using Claude Code for something mundane:
-[cooking](https://github.com/maxcodes/cooking-with-claude/tree/main/examples/christmas-2025).
-Over a few hours, my mom and I planned two 4-course meals and a turkey in a
-seemingly effortless manner.
+My first real "aha" moment with [Claude Code](https://claude.ai/code) was
+[cooking with my mom](https://github.com/maxcodes/cooking-with-claude/tree/main/examples/christmas-2025).
+We planned two four-course meals and a turkey. The agent could read our recipes,
+adjust portions, make shopping lists, and save our preferences.
 
-I gave the agent access to a folder. It could read my recipes, modify them,
-create shopping lists, adjust portions, even remember and save my preferences
-and workflows. Add nutritional values to a recipe? Done. Missing a recipe? Here
-are three options. Gluten free version? No problemo. This felt like an assistant living in my file system, evolving with me.
+It wasn't just answering questions. It was working with us, in our files, and
+keeping what we'd figured out. I started applying the same approach to software
+and everyday tasks.
 
-That's when it clicked: **this is what personal automation should feel like.**
+The tools keep changing. These habits have been more useful than any one tool.
 
-## Automating Everything
+## Five principles
 
-Once you have an agent with file system access, everything changes. I'm now
-building several personal projects entirely differently than before:
+### 1. Tell it to use its brain
 
-- **Prototyping**: I describe what I want, the agent scaffolds it, we iterate in
-  real-time
-- **Debugging**: Point it at a folder, it reads the context, finds issues,
-  suggests fixes
-- **Documentation**: It writes docs by actually reading my code and grounding
-  the output in the real project
-- **Refactoring**: It can see the entire codebase structure and maintain
-  consistency
+When an answer feels obvious or shallow, I say **"use your brain."**
 
-The feedback loop feels completely different. It becomes collaborative
-development with something that can see and touch the same files you're working
-with. Sometimes those files are code. Plaintext and markdown files work just as
-well.
+I mean: think harder, question the approach, and try something more creative.
+Tell it where the first attempt fell short. The phrase isn't magic; refusing
+to settle for the first plausible answer is the point.
 
-## Mobile Agents with Clawdbot
+### 2. The third time, delegate it
 
-One of the first concessions I had to make was that the agent runs on my
-computer. At first, I had to be in front of that machine to interact with my
-agents. Then the obvious question appeared: what if I have an idea for a project
-on the go?
+Notice what you do each day. **The third time you do something, ask an agent
+to do it for you.**
 
-Enter [Clawdbot](https://github.com/clawdbot/clawdbot). It's a gateway that
-connects Claude Code to messaging platforms like Telegram, WhatsApp, Discord,
-and more. It still runs on my machine, has access to my files and context, and I
-can interact with it from anywhere via my phone.
+Give it the real task and the context it needs. Start with one recurring
+annoyance, not a plan to automate your entire life.
 
-I named my instance "Chiko" 🌱 and it's become genuinely useful:
+### 3. Set a high bar
 
-- **Voice messages**: I send voice notes, it transcribes and responds
-- **Proactive updates**: It checks in each morning with ideas or status updates
-- **Background tasks**: I can kick off coding tasks that run overnight. It
-  spawns sub-agents, does the work, and pings me when done
-- **Daily summaries**: It drafts my Basecamp check-ins by checking my GitHub
-  activity, calendar, and email
-- **Memory**: It maintains notes across sessions so it remembers context about
-  my work and preferences
+Expect a lot. Show it examples of good work. When its work isn't good enough,
+explain why.
 
-The magic is the combination: an agent with full access to my filesystem,
-tools, and the ability to spawn other agents. I can dictate a task while walking
-and wake up to a PR ready for review.
+"This is too vague" helps. "Compare these three options, show the costs, and
+recommend one" helps more. Give it something concrete to improve against.
 
-Imagine being at the store and asking your agent to check what ingredients you
-already have at home by reading your inventory file. Or having an idea for a
-feature while walking and dictating it to your agent, which immediately opens
-the relevant files and starts planning the implementation.
+### 4. Make the lesson stick
 
-This is the bridge between "computing" and "living": agents that follow you
-throughout your day, including the moments away from a keyboard.
+When it finally gets something right, say: **"Always do it this way from now on."**
 
-## MCPs: Giving Agents Superpowers
+Ask it to save the method in its instructions or a reusable workflow. Don't
+assume a correction in one conversation will survive into the next. The point
+is to stop teaching the same lesson twice.
 
-Then there's the Model Context Protocol (MCP). This is where things get wild.
+### 5. Give it a separate reviewer
 
-MCPs let you give your agents specific capabilities and skills. Want your agent
-to control your smart home? Check your calendar? Query your database? Send
-emails? MCPs make it possible.
+Ask it to rate its work and keep improving until it earns **9.5/10**. Ideally,
+do this in a separate session that didn't produce the work.
 
-The pattern I'm seeing emerge:
-1. **Context** (file system access + relevant data)
-2. **Capabilities** (MCPs that let the agent interact with specific
-tools/services)
-3. **Access** (natural language interface to orchestrate everything, from
-anywhere)
+Give the reviewer the original request, examples, and the actual result. Ask
+what falls short and have the agent fix it. The score is a target, not proof:
+check whether the result works.
 
-Put those three together, and you have something that starts to feel like a
-personal operating system.
+## OpenClaw and Rita
 
-## What This Means
+I also wanted to delegate things away from my keyboard.
+[OpenClaw](https://github.com/openclaw/openclaw), formerly Clawdbot, lets me
+talk to an agent through WhatsApp while it works with tools and files on my
+computer.
 
-I think we're at the beginning of a major shift in how we interact with our
-computers.
+My assistant is **Rita**. I send her messages or voice notes; she helps with
+research, scheduling, cooking, and projects. She keeps notes on preferences and
+ongoing work so we can pick up where we left off.
 
-For years, automation meant:
-- Learning scripting languages
-- Setting up complex workflows
-- Maintaining brittle integrations
-- Doing things the computer's way
+The useful part isn't having another chat window. It's being able to ask for
+something while walking and come back to work that's been done.
 
-AI agents understand natural language, read and write files, and use the right
-tools through MCPs. Automation becomes conversational.
+## What we're building: Cliq
 
-You describe what you want. The agent figures out how to do it. You iterate
-together. It learns your patterns and preferences over time.
+At Recurrente, we're building [Cliq](https://www.recurrente.com/cliq): an AI
+assistant in WhatsApp that does things for you, like paying bills, buying
+something at the pharmacy, or booking appointments.
 
-This expands beyond writing code faster. It lets you delegate entire categories
-of tasks to something that can work alongside you, in your environment, with
-your context.
+**It asks for your approval before moving money.**
 
-## Getting Started
+It's the same idea applied to everyday errands: ask for an outcome, not a list
+of instructions you still have to carry out yourself.
 
-If you're curious about this:
+## Work with me
 
-- Try [Claude Code](https://claude.ai/code): give it access to a small project
-  folder and see what happens
-- Check out [Clawdbot](https://github.com/clawdbot/clawdbot) if you want mobile
-  access to your agents via Telegram, WhatsApp, or other messaging platforms
-- Explore [AgentSkills](https://agentskills.io/home) to understand how to
-  package a workflow into a repeatable process that an agent can execute.
-- Start small: automate one annoying task in your life
-
-The future of personal automation augments what we can do, reduces friction,
-and lets us focus on the interesting problems while delegating the tedious
-stuff.
-
-And honestly? It's just fun to have an intelligent assistant living in your
-computer, ready to help with whatever you're working on.
+I'm available for consulting on putting AI agents to useful work in your
+business. If you have a process you'd like to improve,
+<Link to="/leave-a-message">leave me a message</Link>.
