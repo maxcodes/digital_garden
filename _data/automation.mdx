@@ -2,97 +2,79 @@
 template: BlogPost
 title: How to use AI well
 thumbnail: ""
-metaDescription: "Practical principles for getting better work from AI agents, from everyday tasks to building software."
+metaDescription: "Treat AI like someone you're training to take tasks off your hands. Hand it what you keep repeating, push it to think harder, show it good work, have it grade the result, and make it keep what works."
 ---
 
 import { Link } from 'gatsby'
 
-The biggest change in how I use AI wasn't finding a better prompt. It was
-expecting it to do useful work, then teaching it what good work looks like.
+Treat AI like someone you're training to take tasks off your hands. Hand it
+what you keep repeating, push it to think harder, show it good work, have it
+grade the result, and make it keep what works.
 
-## How it started
+## From cooking with my mom to a personal assistant
 
 My first real "aha" moment with [Claude Code](https://claude.ai/code) was
-[cooking with my mom](https://github.com/maxcodes/cooking-with-claude/tree/main/examples/christmas-2025).
-We planned two four-course meals and a turkey. The agent could read our recipes,
-adjust portions, make shopping lists, and save our preferences.
+[cooking with my
+mom](https://github.com/maxcodes/cooking-with-claude/tree/main/examples/christmas-2025).
+We planned two four-course meals and a turkey. It read our recipes, adjusted
+portions, and made shopping lists. It also saved our preferences, so the next
+meal could start from what we'd taught it.
 
-It wasn't just answering questions. It was working with us, in our files, and
-keeping what we'd figured out. I started applying the same approach to software
-and everyday tasks.
+I wanted that memory for everything else at home, so I set up Rita, a personal
+assistant that remembers my household's preferences. She runs on
+[OpenClaw](https://github.com/openclaw/openclaw), which connects AI to tools
+and files on my computer. I talk to her through WhatsApp, and she helps Mirna,
+who cooks for us, with recipes and shopping lists.
 
-The tools keep changing. These habits have been more useful than any one tool.
+What worked with both comes down to five rules.
 
-## Five principles
+## Five rules
 
-### 1. Tell it to use its brain
+### 1. The third time, hand the task to AI
 
-When an answer feels obvious or shallow, I say **"use your brain."**
+Pay attention to what you do each day. **The third time you do something, ask
+AI to do it for you.** Give it the task, the information you normally use, and
+a description of the finished result.
 
-I mean: think harder, question the approach, and try something more creative.
-Tell it where the first attempt fell short. The phrase isn't magic; refusing
-to settle for the first plausible answer is the point.
+### 2. Tell it to "use your brain"
 
-### 2. The third time, delegate it
+When its answer feels shallow or it gets stuck on its first approach, tell it
+**"use your brain."** Push it to think harder and try a different angle.
 
-Notice what you do each day. **The third time you do something, ask an agent
-to do it for you.**
+### 3. Show it your standard
 
-Give it the real task and the context it needs. Start with one recurring
-annoyance, not a plan to automate your entire life.
+Hold it to a high standard. Give it examples of good work and explain what
+makes them good. **When its attempt falls short, say why** and ask it to
+revise.
 
-### 3. Set a high bar
+### 4. Make it grade its work until it scores 9.5
 
-Expect a lot. Show it examples of good work. When its work isn't good enough,
-explain why.
+Ask it to **grade its work out of 10 and keep improving until it reaches
+9.5**. Have it explain what's missing, fix those gaps, and check the result
+against your original request before grading again.
 
-"This is too vague" helps. "Compare these three options, show the costs, and
-recommend one" helps more. Give it something concrete to improve against.
+For a stronger review, use a separate session that didn't do the work. Give
+that reviewer your request, examples, and the finished result. At Recurrente,
+the payments company where I build software, I have Claude Code and Codex
+review each other's work and send the findings back for corrections.
 
-### 4. Make the lesson stick
+### 5. Tell it "always do it like that"
 
-When it finally gets something right, say: **"Always do it this way from now on."**
+When it finally gets the work right, say **"always do it like that"**. Ask it
+to save that as an instruction it reads every time, the way it saved our
+cooking preferences.
 
-Ask it to save the method in its instructions or a reusable workflow. Don't
-assume a correction in one conversation will survive into the next. The point
-is to stop teaching the same lesson twice.
+## Cliq: an assistant like Rita, without the setup
 
-### 5. Give it a separate reviewer
-
-Ask it to rate its work and keep improving until it earns **9.5/10**. Ideally,
-do this in a separate session that didn't produce the work.
-
-Give the reviewer the original request, examples, and the actual result. Ask
-what falls short and have the agent fix it. The score is a target, not proof:
-check whether the result works.
-
-## OpenClaw and Rita
-
-I also wanted to delegate things away from my keyboard.
-[OpenClaw](https://github.com/openclaw/openclaw), formerly Clawdbot, lets me
-talk to an agent through WhatsApp while it works with tools and files on my
-computer.
-
-My assistant is **Rita**. I send her messages or voice notes; she helps with
-research, scheduling, cooking, and projects. She keeps notes on preferences and
-ongoing work so we can pick up where we left off.
-
-The useful part isn't having another chat window. It's being able to ask for
-something while walking and come back to work that's been done.
-
-## What we're building: Cliq
-
-At Recurrente, we're building [Cliq](https://www.recurrente.com/cliq): an AI
-assistant in WhatsApp that does things for you, like paying bills, buying
-something at the pharmacy, or booking appointments.
-
-**It asks for your approval before moving money.**
-
-It's the same idea applied to everyday errands: ask for an outcome, not a list
-of instructions you still have to carry out yourself.
+At Recurrente, we're building [Cliq](https://www.recurrente.com/cliq): a
+WhatsApp assistant like Rita that you don't have to set up yourself. It will
+remember the preferences you ask it to keep, so you can hand it recurring
+tasks and teach it how you like them done: paying bills, buying things at the
+pharmacy, booking appointments. It will always ask for your approval before
+moving money.
 
 ## Work with me
 
-I'm available for consulting on putting AI agents to useful work in your
-business. If you have a process you'd like to improve,
-<Link to="/leave-a-message">leave me a message</Link>.
+I'm available for consulting. If your team keeps doing the same task for the
+third, tenth, or hundredth time, I can help you hand it off.
+<Link to="/leave-a-message">Leave me a message</Link>.
